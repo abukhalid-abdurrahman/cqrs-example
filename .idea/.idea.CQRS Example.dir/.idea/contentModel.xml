@@ -27,9 +27,11 @@
       <e p="Models" t="Include">
         <e p="Request" t="Include">
           <e p="CreateOrderRequestModel.cs" t="Include" />
+          <e p="GetOrderRequestModel.cs" t="Include" />
         </e>
         <e p="Response" t="Include">
           <e p="CreateOrderResponseModel.cs" t="Include" />
+          <e p="GetOrderResponseModel.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive">

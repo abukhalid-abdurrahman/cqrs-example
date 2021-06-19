@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d93d1184-8877-4ac8-b88a-f333ea1f6d87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/Commands/IOrderCommands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Request/GetOrderRequestModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Response/GetOrderResponseModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS Example.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS Example.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Request/OrderCommandModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Request/CreateOrderRequestModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Response/OrderQueryModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Response/CreateOrderResponseModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,10 @@
         <option value="$PROJECT_DIR$/Models/Request/CreateOrderRequestModel.cs" />
         <option value="$PROJECT_DIR$/Models/Response/CreateOrderResponseModel.cs" />
         <option value="$PROJECT_DIR$/Interfaces/Commands/IOrderCommands.cs" />
+        <option value="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" />
+        <option value="$PROJECT_DIR$/Interfaces/Queries/IOrderQuery.cs" />
+        <option value="$PROJECT_DIR$/Models/Request/GetOrderRequestModel.cs" />
+        <option value="$PROJECT_DIR$/Models/Response/GetOrderResponseModel.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624094523267</updated>
-      <workItem from="1624094528173" duration="2019000" />
+      <workItem from="1624094528173" duration="2376000" />
     </task>
     <servers />
   </component>
