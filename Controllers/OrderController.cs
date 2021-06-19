@@ -1,7 +1,6 @@
-﻿using CQRS_Example.Interfaces.Commands;
-using CQRS_Example.Interfaces.Queries;
+﻿using System.Threading.Tasks;
 using CQRS_Example.Models.Request;
-using CQRS_Example.Models.Response;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CQRS_Example.Controllers
@@ -10,25 +9,25 @@ namespace CQRS_Example.Controllers
     [Route("api/[controller]")]
     public class OrderController : ControllerBase
     {
-        private readonly IOrderCommands _orderCommands;
-        private readonly IOrderQuery _orderQueries;
+        private readonly IMediator _mediator;
 
-        public OrderController(IOrderCommands orderCommands, IOrderQuery orderQueries)
+        public OrderController(IMediator mediator)
         {
-            _orderCommands = orderCommands;
-            _orderQueries = orderQueries;
+            _mediator = mediator;
         }
 
         [HttpPost]
-        public CreateOrderResponseModel CreateOrder(CreateOrderRequestModel requestModel)
+        public async Task<IActionResult> CreateOrder(CreateOrderRequestModel requestModel)
         {
-            return _orderCommands.CreateOrder(requestModel);
+            var response = await _mediator.Send(requestModel);
+            return Ok(response);
         }
         
         [HttpGet("{id}")]
-        public GetOrderResponseModel GetOrder(string id)
+        public async Task<IActionResult> GetOrder(string id)
         {
-            return _orderQueries.GetOrder(new GetOrderRequestModel() { OrderId = id});
+            var response = await _mediator.Send(new GetOrderRequestModel() {OrderId = id});
+            return Ok(response);
         }
     }
 }

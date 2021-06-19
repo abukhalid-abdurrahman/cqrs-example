@@ -1,7 +1,9 @@
+using System.Reflection;
 using CQRS_Example.Handlers.Commands;
 using CQRS_Example.Handlers.Queries;
 using CQRS_Example.Interfaces.Commands;
 using CQRS_Example.Interfaces.Queries;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -26,6 +28,7 @@ namespace CQRS_Example
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CQRS_Example", Version = "v1" });
             });
+            services.AddMediatR(Assembly.GetExecutingAssembly());
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

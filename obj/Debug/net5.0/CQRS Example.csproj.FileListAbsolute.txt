@@ -27,3 +27,5 @@ E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS 
 E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\ref\CQRS Example.dll
 E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.pdb
 E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.genruntimeconfig.cache
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\MediatR.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
