@@ -11,6 +11,14 @@
         <e p="OrderController.cs" t="Include" />
       </e>
       <e p="CQRS Example.csproj" t="IncludeRecursive" />
+      <e p="Models" t="Include">
+        <e p="Request" t="Include">
+          <e p="OrderCommandModel.cs" t="Include" />
+        </e>
+        <e p="Response" t="Include">
+          <e p="OrderQueryModel.cs" t="Include" />
+        </e>
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="net5.0" t="Include">

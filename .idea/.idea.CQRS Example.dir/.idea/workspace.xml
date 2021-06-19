@@ -23,18 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d93d1184-8877-4ac8-b88a-f333ea1f6d87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/OrderController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherForecast.cs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Request/OrderCommandModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Response/OrderQueryModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/contentModel.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +41,9 @@
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Controllers/OrderController.cs" />
+        <option value="$PROJECT_DIR$/Models/Request/OrderCommand.cs" />
+        <option value="$PROJECT_DIR$/Models/Request/OrderCommandModel.cs" />
+        <option value="$PROJECT_DIR$/Models/Response/OrderQueryModel.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624094523267</updated>
-      <workItem from="1624094528173" duration="718000" />
+      <workItem from="1624094528173" duration="1026000" />
     </task>
     <servers />
   </component>
