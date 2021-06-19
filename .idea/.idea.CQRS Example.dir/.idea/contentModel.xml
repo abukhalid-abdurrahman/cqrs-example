@@ -15,6 +15,9 @@
         <e p="Commands" t="Include">
           <e p="OrderCommands.cs" t="Include" />
         </e>
+        <e p="Queries" t="Include">
+          <e p="OrderQueries.cs" t="Include" />
+        </e>
       </e>
       <e p="Interfaces" t="Include">
         <e p="Commands" t="Include">
