@@ -23,10 +23,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d93d1184-8877-4ac8-b88a-f333ea1f6d87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Handlers/Queries/OrderQueries.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CQRS Example.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CQRS Example.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CQRS Example.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CQRS Example.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CQRS Example.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CQRS Example.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/CQRS Example.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/CQRS Example.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/staticwebassets/CQRS Example.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/staticwebassets/CQRS Example.StaticWebAssets.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRS Example.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/Queries/IOrderQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/Queries/IOrderQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +66,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Program.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Controllers/OrderController.cs" />
         <option value="$PROJECT_DIR$/Models/Request/OrderCommand.cs" />
         <option value="$PROJECT_DIR$/Models/Request/OrderCommandModel.cs" />
         <option value="$PROJECT_DIR$/Models/Response/OrderQueryModel.cs" />
         <option value="$PROJECT_DIR$/Models/Request/CreateOrderRequestModel.cs" />
         <option value="$PROJECT_DIR$/Models/Response/CreateOrderResponseModel.cs" />
         <option value="$PROJECT_DIR$/Interfaces/Commands/IOrderCommands.cs" />
-        <option value="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" />
         <option value="$PROJECT_DIR$/Models/Request/GetOrderRequestModel.cs" />
         <option value="$PROJECT_DIR$/Models/Response/GetOrderResponseModel.cs" />
         <option value="$PROJECT_DIR$/Interfaces/Queries/IOrderQuery.cs" />
         <option value="$PROJECT_DIR$/Handlers/Queries/OrderQuery.cs" />
         <option value="$PROJECT_DIR$/Handlers/Queries/OrderQueries.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" />
+        <option value="$PROJECT_DIR$/Controllers/OrderController.cs" />
       </list>
     </option>
   </component>
@@ -112,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624094523267</updated>
-      <workItem from="1624094528173" duration="3301000" />
+      <workItem from="1624094528173" duration="3948000" />
     </task>
     <servers />
   </component>
@@ -135,13 +161,52 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1559" height="307" key="GridCell.Tab.0.bottom" timestamp="1624098472960">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.0.bottom/0.0.1603.873@0.0.1603.873" timestamp="1624098472960" />
+    <state width="1559" height="307" key="GridCell.Tab.0.center" timestamp="1624098472960">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.0.center/0.0.1603.873@0.0.1603.873" timestamp="1624098472960" />
+    <state width="1559" height="307" key="GridCell.Tab.0.left" timestamp="1624098472960">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.0.left/0.0.1603.873@0.0.1603.873" timestamp="1624098472960" />
+    <state width="1559" height="307" key="GridCell.Tab.0.right" timestamp="1624098472960">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.0.right/0.0.1603.873@0.0.1603.873" timestamp="1624098472960" />
     <state x="309" y="80" key="SettingsEditor" timestamp="1624094580350">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="309" y="80" key="SettingsEditor/0.0.1603.873@0.0.1603.873" timestamp="1624094580350" />
+    <state x="457" y="198" key="run.anything.popup" timestamp="1624098378003">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state x="457" y="198" key="run.anything.popup/0.0.1603.873@0.0.1603.873" timestamp="1624098378003" />
     <state x="464" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1624097011567">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="464" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1603.873@0.0.1603.873" timestamp="1624097011567" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/OrderController.cs</url>
+          <line>30</line>
+          <properties documentPath="E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\Controllers\OrderController.cs" initialLine="30">
+            <startOffsets>
+              <option value="943" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1017" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

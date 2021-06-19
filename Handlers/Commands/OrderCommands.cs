@@ -14,6 +14,8 @@ namespace CQRS_Example.Handlers.Commands
         /// <returns>an orderId</returns>
         public CreateOrderResponseModel CreateOrder(CreateOrderRequestModel requestModel)
         {
+            if(requestModel == null)
+                throw new ArgumentNullException();
             return new CreateOrderResponseModel(Guid.NewGuid().ToString());
         }
     }

@@ -1,0 +1,29 @@
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\appsettings.Development.json
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\appsettings.json
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\CQRS Example.exe
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\CQRS Example.deps.json
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\CQRS Example.runtimeconfig.json
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\CQRS Example.runtimeconfig.dev.json
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\CQRS Example.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\ref\CQRS Example.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\CQRS Example.pdb
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.csprojAssemblyReference.cache
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.GeneratedMSBuildEditorConfig.editorconfig
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.AssemblyInfoInputs.cache
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.AssemblyInfo.cs
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.csproj.CoreCompileInputs.cache
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.MvcApplicationPartsAssemblyInfo.cs
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.MvcApplicationPartsAssemblyInfo.cache
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\staticwebassets\CQRS Example.StaticWebAssets.Manifest.cache
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\staticwebassets\CQRS Example.StaticWebAssets.xml
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\scopedcss\bundle\CQRS Example.styles.css
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.RazorTargetAssemblyInfo.cache
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.csproj.CopyComplete
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\ref\CQRS Example.dll
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.pdb
+E:\Faridun's Projects\Faridun's\Back-End\ASP\CQRS Example\obj\Debug\net5.0\CQRS Example.genruntimeconfig.cache
