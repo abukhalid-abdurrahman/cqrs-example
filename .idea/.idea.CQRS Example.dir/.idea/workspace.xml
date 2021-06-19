@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d93d1184-8877-4ac8-b88a-f333ea1f6d87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CQRS Example.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS Example.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/CQRS Example.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CQRS Example.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CQRS Example.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handlers/Queries/OrderQueries.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Handlers/Queries/OrderQueries.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +42,17 @@
         <option value="$PROJECT_DIR$/Models/Request/OrderCommand.cs" />
         <option value="$PROJECT_DIR$/Models/Request/OrderCommandModel.cs" />
         <option value="$PROJECT_DIR$/Models/Response/OrderQueryModel.cs" />
-        <option value="$PROJECT_DIR$/Models/Request/CreateOrderRequestModel.cs" />
         <option value="$PROJECT_DIR$/Models/Response/CreateOrderResponseModel.cs" />
         <option value="$PROJECT_DIR$/Interfaces/Commands/IOrderCommands.cs" />
-        <option value="$PROJECT_DIR$/Models/Request/GetOrderRequestModel.cs" />
         <option value="$PROJECT_DIR$/Models/Response/GetOrderResponseModel.cs" />
         <option value="$PROJECT_DIR$/Interfaces/Queries/IOrderQuery.cs" />
         <option value="$PROJECT_DIR$/Handlers/Queries/OrderQuery.cs" />
-        <option value="$PROJECT_DIR$/Handlers/Queries/OrderQueries.cs" />
-        <option value="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Controllers/OrderController.cs" />
+        <option value="$PROJECT_DIR$/Models/Request/CreateOrderRequestModel.cs" />
+        <option value="$PROJECT_DIR$/Models/Request/GetOrderRequestModel.cs" />
+        <option value="$PROJECT_DIR$/Handlers/Commands/OrderCommands.cs" />
+        <option value="$PROJECT_DIR$/Handlers/Queries/OrderQueries.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624094523267</updated>
-      <workItem from="1624094528173" duration="4317000" />
+      <workItem from="1624094528173" duration="4682000" />
     </task>
     <servers />
   </component>
@@ -224,6 +220,10 @@
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="309" y="80" key="SettingsEditor/0.0.1603.873@0.0.1603.873" timestamp="1624094580350" />
+    <state x="92" y="92" width="1418" height="687" key="VCS.FileHistoryDialog" timestamp="1624099271628">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state x="92" y="92" width="1418" height="687" key="VCS.FileHistoryDialog/0.0.1603.873@0.0.1603.873" timestamp="1624099271627" />
     <state x="457" y="198" key="run.anything.popup" timestamp="1624098378003">
       <screen x="0" y="0" width="1603" height="873" />
     </state>

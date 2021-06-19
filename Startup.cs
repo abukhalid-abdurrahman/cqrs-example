@@ -26,8 +26,6 @@ namespace CQRS_Example
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CQRS_Example", Version = "v1" });
             });
-            services.AddScoped<IOrderCommands, OrderCommands>();
-            services.AddScoped<IOrderQuery, OrderQueries>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
